@@ -5,7 +5,6 @@ const Flex = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
   gap: 50px;
 
   & > div,
@@ -13,9 +12,8 @@ const Flex = styled.div`
     flex: 1;
   }
 
-  ${MQ.mobile} {
-    flex-direction: "row";
-    text-align: left;
+  ${MQ.tablet} {
+    flex-direction: row;
   }
 `;
 
